@@ -1,3 +1,13 @@
+1ST-Open Terminal in the "Source Code" folder and run: "python app.py" to initalize backend and database.
+
+2ND-Open a new terminal and run "npm start" to run React.js frontend of the application.
+
+Make sure to follow the instructions file in the "Source Code" folder.
+Also make sure you have installed npm (npm -install) in your "React" folder.
+
+
+HERE  ARE SOME INFO THAT COULD HELP BUILDING AND INITALIZING THE PROJECT:
+
 Try: python app.py
 If the built in virtual environment does not work, follow these steps:
 
