@@ -5,6 +5,7 @@
 Make sure to follow the instructions file in the "Source Code" folder.
 Also make sure you have installed npm (npm -install) in your "React" folder.
 
+READ!!!: If the venv does not work on your local you can delete the "venv" folder and follow the instructions below to rebuild your virtual environment.
 
 HERE  ARE SOME INFO THAT COULD HELP BUILDING AND INITALIZING THE PROJECT:
 
@@ -15,7 +16,9 @@ If the built in virtual environment does not work, follow these steps:
 2) source venv/bin/activate
 Inside the correct directory
 3) pip install -r requirements.txt
-4) python3 app.py
+4) pip install flask-cors
+5) pip install flask-socketio
+6) python3 app.py
 
 In Postman:
 1) open workspace
