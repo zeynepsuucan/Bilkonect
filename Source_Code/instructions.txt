@@ -1,0 +1,174 @@
+virtual environment açmak ve api çalıştırmak için sırayla:
+1) python -m venv venv
+2) source venv/bin/activate
+doğru directory'nin içinde:
+3) pip install -r requirements.txt
+4) python3 app.py
+
+Postman'e girip sırayla:
+1) open workspace
+2) add request 
+3) POST ile http://127.0.0.1:5000/register
+4) Body'den raw seçip JSON seçip info girin
+5) JSON register için:
+{
+  "bilkent_id": 22103044,
+  "username": "zeynepsuucan",
+  "password": "Su29112911!",
+  "usertype": "Student",
+  "email": "zeynepsuucan@gmail.com"
+}
+6) aynı id ile bir daha registerlanamıyor:
+{
+    "message": "Bilkent ID already exists"
+}
+7) aynı username ile bir daha registerlanamıyor:
+{
+    "message": "Username is already taken"
+}
+8) aynı mail adresiyle bir daha registerlanamıyor:
+{
+    "message": "Email address is already registered"
+}
+9) user type daha corner case i yazılmadı (Student, Staff, Instructor veya Admin olacak şekilde)
+10) admin nasıl register yapacak bilmiyorum bence biz elimizle ekleyelim ????
+11) login için POST ile http://127.0.0.1:5000/login
+12) JSON login için:
+{
+  "username": "zeynepsuucan",
+  "password": "Su29112911"
+}
+13) doğru login edersek: 
+{
+    "bilkent_id": 22103044,
+    "username": "zeynepsuucan",
+    "usertype": "Student",
+    "email": "su.ucan@ug.bilkent.edu.tr",
+    "score": 0
+}
+14) yanlış login edersek:
+{
+    "message": "Invalid credentials"
+}
+15) postlar için tüm jsonlar:
+
+1. Donation Post: donation.json
+{
+  "title": "Sample Donation Post",
+  "description": "This is a sample donation post.",
+  "post_type": "DonationPost",
+  "owner": "zeynepsuucan",
+  "criteria": "The person to get the donation needs to be a student.",
+  "share_date": "2023-12-31T12:00:00",
+  "image": "https://example.com/donation_image.jpg",
+  "isDonated": false,
+  "isNegotiated": false
+}
+
+2. Found Item Post: founditem.json
+{
+  "title": "Sample Found Item Post",
+  "description": "This is a sample found item post.",
+  "post_type": "FoundPost",
+  "owner": "ozgurikidag",
+  "share_date": "2023-12-31T12:00:00",
+  "ownerFound": false,
+  "image": "https://example.com/found_item_image.jpg"
+}
+
+3. Lost Item Post: lostitem.json
+{
+  "title": "Sample Lost Item Post",
+  "description": "This is a sample lost item post.",
+  "post_type": "LostPost",
+  "owner": "osmanberkay",
+  "share_date": "2023-12-31T12:00:00",
+  "isFound": false,
+  "image": "https://example.com/lost_item_image.jpg"
+}
+
+4. Second Hand Sale Post: secondhandsale.json
+{
+  "title": "Sample Second Hand Sale Post",
+  "description": "This is a sample second-hand sale post.",
+  "post_type": "SecondHandSalePost",
+  "owner": "bartummc",
+  "share_date": "2023-12-31T12:00:00",
+  "price": 50.0,
+  "image": "https://example.com/sale_item_image.jpg",
+  "isNegotiated": false,
+  "isSold": true
+}
+
+5. Need Post: need.json
+{
+  "title": "Sample Need Post",
+  "description": "This is a sample need post.",
+  "post_type": "NeedPost",
+  "owner": "zeynepsuucan",
+  "share_date": "2023-12-31T12:00:00",
+  "foundNeed": true,
+  "isBorrowed": false
+}
+
+6. Course Material Post: coursematerial.json
+{
+  "title": "Sample Course Material Post",
+  "description": "This is a sample course material post.",
+  "post_type": "CourseMaterialPost",
+  "owner": "ozgurikidag",
+  "criteria": "Textbooks for sale",
+  "share_date": "2023-12-31T12:00:00",
+}
+
+7. Study Buddy Post: studybuddy.json
+{
+  "title": "Sample Study Buddy Post",
+  "description": "This is a sample study buddy post.",
+  "post_type": "StudyBuddyPost",
+  "owner": "osmanberkay",
+  "criteria": "Mathematics study group",
+  "share_date": "2023-12-31T12:00:00",
+  "course": "Mathematics"
+}
+
+8. Gym Buddy Post: gymbuddy.json
+{
+  "title": "Sample Gym Buddy Post",
+  "description": "This is a sample gym buddy post.",
+  "post_type": "GymBuddyPost",
+  "owner": "bartummc",
+  "criteria": "Fitness partner",
+  "share_date": "2023-12-31T12:00:00"
+}
+
+9. Trip Post: trip.json
+{
+  "title": "Sample Trip Post",
+  "description": "This is a sample trip post.",
+  "post_type": "TripPost",
+  "owner": "zeynepsuucan",
+  "criteria": "Travel companion",
+  "share_date": "2023-12-31T12:00:00",
+  "tripDate": "2024-01-15T08:00:00",
+  "destination": "Beach Resort",
+  "departure": "City Center"
+}
+
+10. Roommate Post: roommate.json
+{
+  "title": "Sample Roommate Post",
+  "description": "This is a sample roommate post.",
+  "post_type": "RoommatePost",
+  "owner": "zeynepsuucan",
+  "criteria": "Looking for a roommate",
+  "share_date": "2023-12-31T12:00:00"
+}
+ 
+report json:
+{
+    "reporterId": 22103044,
+    "reporteeId": 22103805,
+    "reason": "don't like post",
+    "date": "2023-12-31T12:00:00"
+}
