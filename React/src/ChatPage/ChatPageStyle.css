@@ -1,0 +1,34 @@
+.outer-chat-frame {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.outer-chat-frame .mid-frame {
+    width: 721px;
+  height: fit-content;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  left: -9px;
+  position:relative;
+  background-repeat:repeat;
+  /* overflow: hidden; */
+  background-attachment:fixed;
+  background-position:49%;
+  /* position: fixed; */
+  background-image: url("./image 14.png");
+  }
+  
+  .outer-chat-frame .chat-bar-frame {
+    
+    position: relative;
+    top: -80px;  
+    left: 26px;  
+
+  }
+
+  

@@ -1,0 +1,151 @@
+.element-recovery-page {
+    background-color: #9fa0ff12;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .element-recovery-page .overlap-group-wrapper {
+    background-color: #9fa0ff12;
+    height: 832px;
+    width: 1280px;
+  }
+  
+  .element-recovery-page .overlap-group {
+    background-color: #ffffff;
+    height: 832px;
+    position: relative;
+  }
+  
+  .element-recovery-page .overlap {
+    background-image: url(https://c.animaapp.com/zJ4IjWpe/img/image-17.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 752px;
+    left: 0;
+    position: absolute;
+    top: 80px;
+    width: 1280px;
+  }
+  
+  .element-recovery-page .div {
+    background-image: url(https://c.animaapp.com/zJ4IjWpe/img/rectangle-10.svg);
+    background-size: 100% 100%;
+    height: 302px;
+    left: 398px;
+    position: absolute;
+    top: 185px;
+    width: 484px;
+  }
+  
+  .element-recovery-page .rectangleInput {
+    background-color: #ffffff;
+    border: 3px solid;
+    border-color: #5d5fef;
+    border-radius: 30px;
+    height: 50px;
+    left: 83px;
+    position: absolute;
+    top: 86px;
+    font-size: 25px;
+    width: 311px;
+  }
+  
+  .element-recovery-page .text-wrapper {
+    color: #5d5fef;
+    font-family: "Urbanist", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 105px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 52px;
+    white-space: nowrap;
+  }
+  
+  .element-recovery-page .recover-password-wrapper {
+    background-color: #7879f1;
+    border-radius: 30px;
+    height: 65px;
+    left: 71px;
+    position: absolute;
+    top: 180px;
+    width: 341px;
+  }
+  
+  .element-recovery-page .recover-password {
+    height: 35px;
+    left: 18px;
+    position: absolute;
+    top: 16px;
+    width: 297px;
+  }
+  
+  .element-recovery-page .image {
+    height: 22px;
+    left: 438px;
+    object-fit: cover;
+    position: absolute;
+    top: 20px;
+    width: 22px;
+  }
+  
+  .element-recovery-page .text-wrapper-2 {
+    color: #000000;
+    font-family: "Urbanist", Helvetica;
+    font-size: 48px;
+    font-weight: 700;
+    left: 378px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 89px;
+  }
+  
+  .element-recovery-page .go-back-to-log-in {
+    color: transparent;
+    font-family: "Urbanist", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 561px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 524px;
+    white-space: nowrap;
+  }
+  
+  .element-recovery-page .span {
+    color: #000000;
+  }
+  
+  .element-recovery-page .text-wrapper-3 {
+    color: #5d5fef;
+    cursor: pointer;
+  }
+  
+  .element-recovery-page .div-wrapper {
+    background-color: #7879f1;
+    height: 80px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1280px;
+  }
+  
+  .element-recovery-page .text-wrapper-4 {
+    -webkit-text-stroke: 3px #000000;
+    color: #ffffff;
+    font-family: "Urbanist", Helvetica;
+    font-size: 48px;
+    font-weight: 700;
+    left: 539px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-shadow: 0px 4px 4px #00000040;
+    top: 7px;
+  }
+  

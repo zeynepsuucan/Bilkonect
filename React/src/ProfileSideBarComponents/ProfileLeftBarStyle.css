@@ -1,0 +1,231 @@
+.profile-left-bar-frame {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 10%;
+
+    position: fixed;
+     
+    left: 100px;
+  }
+  
+  .profile-left-bar-frame .div {
+    background-color: #ffffff;
+    height: 832px;
+    position: relative;
+    width: 292px;
+  }
+  
+  .profile-left-bar-frame .overlap {
+    background-color: #7879f1;
+    height: 80px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 292px;
+  }
+  
+  .profile-left-bar-frame .text-wrapper {
+    -webkit-text-stroke: 3px #000000;
+    color: #ffffff;
+    font-family: "Urbanist-Bold", Helvetica;
+    font-size: 48px;
+    font-weight: 700;
+    left: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-shadow: 0px 4px 4px #00000040;
+    top: 7px;
+  }
+  
+  .profile-left-bar-frame .overlap-group {
+    background-color: #eaeaea;
+    height: 752px;
+    left: 0;
+    position: absolute;
+    top: 80px;
+    width: 292px;
+  }
+  
+  .profile-left-bar-frame .text-wrapper-2 {
+    color: #000000;
+    font-family: "Urbanist-Bold", Helvetica;
+    font-size: 26px;
+    font-weight: 700;
+    left: 82px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 192px;
+    white-space: nowrap;
+    width: 77px;
+  }
+  
+  .profile-left-bar-frame .text-wrapper-3 {
+    color: #000000;
+    font-family: "Urbanist-Bold", Helvetica;
+    font-size: 26px;
+    font-weight: 700;
+    left: 80px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 254px;
+    white-space: nowrap;
+    width: 100px;
+  }
+  
+  .profile-left-bar-frame .text-wrapper-4 {
+    color: #000000;
+    font-family: "Urbanist-Bold", Helvetica;
+    font-size: 26px;
+    font-weight: 700;
+    left: 58px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 316px;
+    white-space: nowrap;
+    width: 137px;
+  }
+  
+  .profile-left-bar-frame .text-wrapper-5 {
+    color: #000000;
+    font-family: "Urbanist-Bold", Helvetica;
+    font-size: 26px;
+    font-weight: 700;
+    left: 78px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 378px;
+    white-space: nowrap;
+    width: 112px;
+  }
+  
+  .profile-left-bar-frame .text-wrapper-6 {
+    color: #000000;
+    font-family: "Urbanist-Bold", Helvetica;
+    font-size: 26px;
+    font-weight: 700;
+    left: 82px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 133px;
+    white-space: nowrap;
+  }
+  
+  .profile-left-bar-frame .text-wrapper-7 {
+    color: #000000;
+    font-family: "Urbanist-Bold", Helvetica;
+    font-size: 26px;
+    font-weight: 700;
+    left: 82px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 74px;
+    white-space: nowrap;
+  }
+  
+  .profile-left-bar-frame .text-wrapper-8 {
+    color: #000000;
+    font-family: "Urbanist-Bold", Helvetica;
+    font-size: 26px;
+    font-weight: 700;
+    left: 82px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 20px;
+    white-space: nowrap;
+  }
+
+  .profile-left-bar-frame .text-wrapper-9 {
+    color: #000000;
+    font-family: "Urbanist-Bold", Helvetica;
+    font-size: 26px;
+    font-weight: 700;
+    left: 82px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 440px;
+    white-space: nowrap;
+  }
+  
+  .profile-left-bar-frame .image {
+    height: 37px;
+    left: 23px;
+    object-fit: contain;
+    position: absolute;
+    top: 250px;
+    width: 40px;
+  }
+  
+  .profile-left-bar-frame .img {
+    height: 37px;
+    left: 27px;
+    object-fit: cover;
+    position: absolute;
+    top: 70px;
+    width: 37px;
+  }
+  
+  .profile-left-bar-frame .image-2 {
+    height: 36px;
+    left: 23px;
+    object-fit: cover;
+    position: absolute;
+    top: 17px;
+    width: 37px;
+  }
+  
+  .profile-left-bar-frame .image-3 {
+    height: 45px;
+    left: 23px;
+    object-fit: contain;
+    position: absolute;
+    top: 128px;
+    width: 40px;
+  }
+  
+  .profile-left-bar-frame .image-4 {
+    height: 35px;
+    left: 23px;
+    object-fit: cover;
+    position: absolute;
+    top: 440px;
+    width: 35px;
+  }
+  
+  .profile-left-bar-frame .image-5 {
+    height: 45px;
+    left: 16px;
+    object-fit: cover;
+    position: absolute;
+    top: 370px;
+    width: 49px;
+  }
+  
+  .profile-left-bar-frame .image-6 {
+    height: 54px;
+    left: 24px;
+    object-fit: contain;
+    position: absolute;
+    top: 183px;
+    width: 40px;
+  }
+
+  .profile-left-bar-frame .image-7 {
+    height: 54px;
+    left: 24px;
+    object-fit: contain;
+    position: absolute;
+    top: 310px;
+    width: 40px;
+  }
+  

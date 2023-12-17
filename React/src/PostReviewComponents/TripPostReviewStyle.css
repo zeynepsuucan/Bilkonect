@@ -1,0 +1,154 @@
+.trip-post-review-frame {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .trip-post-review-frame .overlap-group-wrapper {
+
+    height: 640px;  
+    width: 470px;
+  }
+  
+  .trip-post-review-frame .overlap-group {
+    height: 535px;
+    width: 370px;
+    justify-content: center;
+    background-color: white;
+    color: #ffffff;
+    padding: 50px;
+    border: 5px solid #6b6df2;
+    border-radius: 30px;
+    position: relative;
+  }
+  
+  .trip-post-review-frame .text-wrapper {
+    color: #000000;
+    font-family: "Urbanist-Bold", Helvetica;
+    font-size: 13px;
+    font-weight: 700;
+    left: 52px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 502px;
+  }
+  
+  .trip-post-review-frame .div {
+    color: #000000;
+    font-family: "Urbanist-Bold", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+    left: 280px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 502px;
+  }
+  
+  .trip-post-review-frame .text-wrapper-2 {
+    color: #000000;
+    font-family: "Urbanist-Bold", Helvetica;
+    font-size: 16px;
+    font-weight: 700;
+
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    white-space: wrap;
+    top: 320px;
+    width: 375px;
+  }
+  
+  .trip-post-review-frame .text-wrapper-3 {
+    color: #000000;
+    font-family: "Urbanist-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: center;
+    position: relative;
+    text-decoration: underline;
+    top: 170px;
+    width: 375px;
+    white-space: wrap;
+  }
+  
+  .trip-post-review-frame .trip-info-wrapper {
+    color: #521d5f;
+
+
+
+    text-align: center;
+    position: relative;
+    font-family: "Urbanist", Helvetica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    
+
+    top: -30px;
+  }
+
+
+  .trip-post-review-frame .image {
+    height: 234px;
+    left: 83px;
+    object-fit: cover;
+    position: absolute;
+    top: 37px;
+    width: 303px;
+  }
+  
+  .trip-post-review-frame .overlap {
+    background-color: #7879f1;
+    border-radius: 30px;
+    height: 72px;
+    left: 39px;
+    position: absolute;
+    top: 540px;
+    width: 392px;
+  }
+  
+  .trip-post-review-frame .send-request-to-chat {
+    height: 40px;
+    left: 15px;
+    position: absolute;
+    top: 15px;
+    width: 356px;
+    flex-shrink: 0;
+
+    
+    color: #ffffff;
+    font-family: "Urbanist", Helvetica;
+    font-size: 34px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 0;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    white-space: nowrap;
+    cursor: pointer;
+  }
+  
+  .trip-post-review-frame .favorite {
+    height: 26px;
+    left: 390px;
+    object-fit: cover;
+    position: absolute;
+    top: 496px;
+    width: 25px;
+  }
+  
+  .trip-post-review-frame .img {
+    height: 22px;
+    left: 435px;
+    object-fit: cover;
+    position: absolute;
+    top: 14px;
+    width: 22px;
+  }
+  

@@ -1,0 +1,92 @@
+.search-profile-frame {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+ .search-profile-frame .mid-frame {
+  width: 721px;
+  height: fit-content;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  left: -9px;
+  position: relative;
+  background-repeat:repeat;
+  /* overflow: hidden; */
+  background-attachment:fixed;
+  background-position:49%;
+  /* position: fixed; */
+  background-image: url("./image 14.png");
+ }
+  
+  .search-profile-frame .search-props2 {
+
+    top:-25px;
+    height: 900px;
+    position: relative;
+
+    width: 719px;
+  }
+
+
+  .search-profile-frame .search-bar {
+    width: 580px;
+    height: 63px;
+    flex-shrink: 0;
+
+    padding-left: 70px;
+
+    background-color: rgba(165, 166, 246, 0.28);
+
+    stroke-width: 3px;
+    stroke: #0003FF;
+
+    font-size: 22px;
+    font-style: "Urbanist", Helvetica;
+
+
+    flex-direction: row;
+
+    position: relative;
+    margin-top: 8%;
+    left: 20px;
+
+    border: 3px solid;
+    border-color: #5d5fef;
+    border-radius: 30px;
+  }
+
+  .search-profile-frame .search-img {
+    left: -620px;
+    top: 11px;
+
+    position: relative;
+  }
+  
+
+  .search-profile-frame .line {
+    width: 800px;
+    height: 2px;
+    background: #000;
+
+    position: relative;
+    top: 20px;
+    left: 0px;
+  }
+  
+  .search-profile-frame .searched-posts {
+    display: grid;
+    
+    grid-template-columns: repeat(1, 1fr);
+
+    top: -776px;
+    position: relative;
+    left: -3px;
+    row-gap: -100px;
+    grid-auto-rows: minmax(120px, auto);
+
+    background-color: rgba(159, 161, 255, 0.17);
+  }

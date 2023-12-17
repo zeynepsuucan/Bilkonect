@@ -1,0 +1,125 @@
+.outer-frame {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.search-choose-frame {
+    width: 719px;
+    height: 832px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    left: -9px;
+    position: relative;
+    background-image: url("./image 14.png");
+  }
+  
+  .outer-frame .div {
+    height: 832px;
+    position: relative;
+    width: 719px;
+  }
+  
+  .outer-frame .text-wrapper {
+    color: #000000;
+    font-family: "Urbanist-Bold", Helvetica;
+    font-size: 48px;
+    font-weight: 700;
+    left: 105px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 171px;
+    width: 509px;
+  }
+  
+  .outer-frame .overlap {
+    
+    background-color: rgba(165, 166, 246, 0.28);
+
+    border: 3px solid;
+    border-color: #5d5fef;
+    border-radius: 30px;
+
+    height: 114px;
+    left: 118px;
+    position: absolute;
+    top: 383px;
+    width: 484px;
+    flex-shrink: 0;
+  }
+  
+  .outer-frame .group {
+    height: 44px;
+    left: 56px;
+    position: absolute;
+    top: 34px;
+    width: 146px;
+  }
+  
+  .outer-frame .overlap-group-wrapper {
+    height: 44px;
+    width: 148px;
+  }
+  
+  .outer-frame .overlap-group {
+    background-color: #7879f1;
+    border-radius: 30px;
+    height: 44px;
+    position: relative;
+    width: 146px;
+  }
+  
+  .outer-frame .profiles {
+
+    width: 127px;
+    height: 32px;
+    flex-shrink: 0;
+
+    left: 10px;
+    top: 10px;
+
+    position: relative;
+
+    color: #FFFEFE;
+    text-align: center;
+    font-family: "Urbanist", Helvetica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  .outer-frame .group-wrapper {
+    height: 44px;
+    left: 282px;
+    position: absolute;
+    top: 31px;
+    width: 146px;
+  }
+  
+  .outer-frame .posts {
+
+    left: 10px;
+    top: 10px;
+
+    width: 127px;
+    height: 29px;
+    flex-shrink: 0;
+
+    position: relative;
+
+    color: #FFFEFE;
+
+    text-align: center;
+    font-family: "Urbanist", Helvetica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  

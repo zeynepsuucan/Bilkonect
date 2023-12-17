@@ -1,0 +1,232 @@
+.element-login-page {
+    background-color: #9fa0ff12;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .element-login-page .overlap-group-wrapper {
+    background-color: #9fa0ff12;
+    height: 832px;
+    width: 1280px;
+  }
+  
+  .element-login-page .overlap-group {
+    background-color: #ffffff;
+    height: 832px;
+    position: relative;
+  }
+  
+  .element-login-page .overlap {
+    background-image: url(https://c.animaapp.com/65dKJiIt/img/image-15.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 752px;
+    left: 0;
+    position: absolute;
+    top: 80px;
+    width: 1280px;
+  }
+  
+  .element-login-page .div {
+    background-image: url(https://c.animaapp.com/65dKJiIt/img/rectangle-3.svg);
+    background-size: 100% 100%;
+    height: 405px;
+    left: 456px;
+    position: absolute;
+    top: 173px;
+    width: 367px;
+  }
+  
+  .element-login-page .overlap-2 {
+    height: 104px;
+    left: 28px;
+    position: absolute;
+    top: 22px;
+    width: 322px;
+  }
+  
+  .element-login-page .overlap-3 {
+    height: 150px;
+    left: 0;
+    position: absolute;
+    top: 5px;
+    width: 311px;
+  }
+  
+  .element-login-page .rectangleInput {
+    background-color: #ffffff;
+    border: 3px solid;
+    border-color: #5d5fef;
+    border-radius: 30px;
+    height: 50px;
+    left: 0;
+    font-size: 25px;
+    position: absolute;
+    top: 34px;
+    width: 311px;
+  }
+  
+  .element-login-page .text-wrapper {
+    color: #5d5fef;
+    font-family: "Urbanist", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    bottom: 100px;
+  }
+  
+  .element-login-page .image {
+    height: 22px;
+    left: 305px;
+    object-fit: cover;
+    position: absolute;
+    bottom: 92px;
+    width: 22px;
+  }
+  
+  .element-login-page .rectangle-2Input {
+    background-color: #ffffff;
+    border: 3px solid;
+    border-color: #5d5fef;
+    border-radius: 30px;
+    height: 50px;
+    left: 26px;
+    font-size: 25px;
+    position: absolute;
+    top: 170px;
+    width: 311px;
+  }
+  
+  .element-login-page .text-wrapper-2 {
+    color: #5d5fef;
+    font-family: "Urbanist", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 53px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 142px;
+    white-space: nowrap;
+  }
+  
+  .element-login-page .text-wrapper-3 {
+    color: #000000;
+    font-family: "Urbanist", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 27px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-decoration: underline;
+    top: 247px;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+  
+  .element-login-page .login-wrapper {
+    background-color: #7879f1;
+    border-radius: 30px;
+    height: 65px;
+    left: 116px;
+    position: absolute;
+    top: 297px;
+    width: 139px;
+  }
+  
+
+  .element-login-page .text-wrapper-7 {
+    -webkit-text-stroke: 1px #5d5fef;
+    color: #ffffff;
+    font-family: "Urbanist", Helvetica;
+    font-size: 36px;
+    font-weight: 700;
+    left: 7px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-shadow: 0px 4px 4px #00000040;
+    top: 10px;
+    white-space: nowrap;
+    width: 129px;
+    cursor: pointer;
+  }
+  
+  .element-login-page .text-wrapper-4 {
+    color: #000000;
+    font-family: "Urbanist", Helvetica;
+    font-size: 48px;
+    font-weight: 700;
+    left: 471px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 93px;
+  }
+  
+  .element-login-page .don-t-have-an {
+    color: transparent;
+    font-family: "Urbanist", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 485px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 597px;
+    white-space: nowrap;
+  }
+  
+  .element-login-page .span {
+    color: #000000;
+  }
+  
+  .element-login-page .text-wrapper-5 {
+    color: #5d5fef;
+    cursor: pointer;
+  }
+  
+  .element-login-page .div-wrapper {
+    background-image: url(https://c.animaapp.com/65dKJiIt/img/rectangle-1.svg);
+    background-size: 100% 100%;
+    height: 80px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1280px;
+  }
+  
+  .element-login-page .text-wrapper-6 {
+    -webkit-text-stroke: 3px #000000;
+    color: #ffffff;
+    font-family: "Urbanist", Helvetica;
+    font-size: 48px;
+    font-weight: 700;
+    left: 539px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-shadow: 0px 4px 4px #00000040;
+    top: 7px;
+  }
+  
+  .element-login-page .error_mismatch {
+    color: #ff0000;
+    font-family: "Urbanist", Helvetica;
+    font-size: 15px;
+    font-weight: 700;
+    left: 100px;
+    width: 180px;
+    letter-spacing: 0;
+    text-align: left;
+    line-height: normal;
+    text-decoration: underline;
+    position: absolute;
+    bottom: 5px;
+  }

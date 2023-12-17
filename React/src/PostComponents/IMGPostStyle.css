@@ -1,0 +1,113 @@
+.IMG-frame {
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+
+    cursor: pointer;
+  }
+  
+  .IMG-frame .overlap-group-wrapper {
+   
+    height: 260px;
+    width: 290px;
+  }
+  
+  .IMG-frame .overlap-group {
+    
+    width: 290px;
+    height: 260px;
+    
+    justify-content: center;
+    background-color: white;
+    color: #ffffff;
+    
+    border: 5px solid #6b6df2;
+    border-radius: 30px;
+    position: relative;
+  }
+  
+  .IMG-frame .text-wrapper {
+    color: #000000;
+    font-family: "Urbanist-Bold", Helvetica;
+    font-size: 13px;
+    font-weight: 700;
+    left: 0px;
+    height: auto;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 228px;
+
+    display: inline-block;
+    width: 120px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+  }
+
+  .IMG-frame .resource-IMG {
+
+    background-size:cover;
+    background-position: center;
+    border: 2px solid;
+    border-color: #000000;
+    border-radius: 10px;
+    height: 90px;
+    position: absolute;
+    width: 120px;
+    object-fit: fill ;
+
+    
+    left: 78px;
+    top: 20px;
+
+  }
+
+  
+  .IMG-frame .div {
+    color: #000000;
+    font-family: "Urbanist-Bold", Helvetica;
+    font-size: 13px;
+    font-weight: 700;
+    left: 10px;
+    height: auto;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 165px;
+    width: auto;
+
+    display: inline-block;
+    width: 270px;
+    height: 47px;
+    white-space: wrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+  }
+  
+  .IMG-frame .text-wrapper-2 {
+    color: #000000;
+    font-family: "Urbanist-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 10px;
+    width: auto;
+    height: auto;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    background-color: rgb(215, 215, 215);
+    top: 120px;
+    white-space: nowrap;
+
+    display: inline-block;
+    width: 270px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+  }
+  

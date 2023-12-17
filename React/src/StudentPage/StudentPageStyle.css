@@ -1,0 +1,52 @@
+.student-page-frame {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+ .student-page-frame .student-page-mid-frame {
+    width: 719px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    left: -9px;
+    position: relative;
+    background-repeat:repeat;
+    /* overflow: hidden; */
+    background-attachment:fixed;
+    background-position:48.9%;
+    /* position: fixed; */
+    background-image: url("./image 14.png");
+ }
+
+ .student-page-frame .student-page-post-review {
+    display: grid;
+    margin-top: 80px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    row-gap: 20px;
+    grid-auto-rows: minmax(290px, auto);
+    /* overflow-y: scroll;
+    overflow-x: visible; */
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center; */
+ }
+
+ .student-page-frame .student-page-header {
+   display: flex;
+
+   position: relative;
+   top:-20px;
+
+   color: #000;
+   align-items: center;
+   font-family: "Urbanist", Helvetica;
+   font-size: 48px;
+   font-style: normal;
+   font-weight: 700;
+   justify-content: center;
+   line-height: normal;
+ }

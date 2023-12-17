@@ -1,0 +1,50 @@
+.mini-profile-frame {
+    top: 10px;
+    left: 10px;
+    position: relative;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    width: auto;
+    height: auto;
+
+    border-bottom: solid 2px #000 ;
+    padding-bottom: 10px;
+
+    
+}
+
+  .mini-profile-frame .profile-container {
+    display: flex;
+    flex-direction: row;
+    
+    
+  }
+
+  .mini-profile-frame .facetune-pfp {
+    background-position: center;
+    background-size: cover;
+
+    
+    border: 5px solid;
+    border-color: #000000;
+    border-radius: 114.1px;
+    height: 90px;
+
+    position: relative;
+    
+    width: 90px;
+  }
+
+  .mini-profile-frame .text-wrapper-mini {
+    text-align: center;
+    position: relative;
+
+    top: 20px;
+
+    left: 25px;
+    font-size: 36px;
+
+    
+  }

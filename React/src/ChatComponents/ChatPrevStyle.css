@@ -1,0 +1,62 @@
+.chat-prev-frame {
+    top: 10px;
+    left: 10px;
+    position: relative;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    width: auto;
+    height: auto;
+
+    border-bottom: solid 2px #000 ;
+    padding-bottom: 10px;
+
+    
+}
+
+  .chat-prev-frame .profile-container {
+    display: flex;
+    flex-direction: row;
+    
+    
+  }
+
+  .chat-prev-frame .facetune-pfp {
+    background-position: center;
+    background-size: cover;
+
+    
+    border: 5px solid;
+    border-color: #000000;
+    border-radius: 114.1px;
+    height: 90px;
+
+    position: relative;
+    
+    width: 90px;
+  }
+
+  .chat-prev-frame .text-wrapper-mini {
+    text-align: left;
+    position: absolute;
+
+    top: -10px;
+
+    left: 130px;
+    font-size: 36px;
+
+    
+  }
+
+  .chat-prev-frame .last-message-wrapper {
+    text-align: left;
+    position: relative;
+    font-style: italic;
+    top: 50px;
+
+    left: 60px;
+    font-size: 24px;
+
+    
+  }

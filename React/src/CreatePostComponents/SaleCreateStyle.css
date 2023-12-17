@@ -1,0 +1,208 @@
+.sale-create {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .sale-create .overlap-group-wrapper {
+    height: 560px;
+    width: 540px;
+  }
+  
+  .sale-create .overlap-group {
+    width: 540px;
+    height: 560px;
+    flex-shrink: 0;
+
+    background-color: rgba(159, 161, 255, 0.17);
+
+    stroke-width: 3px;
+    stroke: #5D5FEF;
+
+    position: relative;
+
+    justify-content: center;
+    border: 5px solid #6b6df2;
+    border-radius: 30px;
+  }
+  
+  .sale-create .text-wrapper {
+    color: #000000;
+    font-family: "Urbanist", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 39px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 323px;
+    white-space: nowrap;
+  }
+  
+  .sale-create .div {
+    color: #000000;
+    font-family: "Urbanist", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 270px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 368px;
+    white-space: nowrap;
+  }
+  
+  .sale-create .rectangle {
+    background-color: #ffffff;
+    border: 3px solid;
+    border-color: #5d5fef;
+    border-radius: 30px;
+    height: 65px;
+    left: 28px;
+    position: absolute;
+    top: 60px;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 430px;
+    font-family: "Urbanist", Helvetica;
+    font-size: 25px;
+  }
+  
+  .sale-create .img {
+    height: 65px;
+    left: 28px;
+    position: absolute;
+    top: 354px;
+    justify-content: center;
+    border: 3px solid #6b6df2;
+    border-radius: 30px;
+    background-color: #ffffff;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 110px;
+    font-family: "Urbanist", Helvetica;
+    font-size: 20px;
+  }
+  
+  .sale-create .overlap {
+    stroke-width: 3px;
+    stroke: #5D5FEF;
+
+    position: relative;
+
+    justify-content: center;
+    border: 5px solid #6b6df2;
+    border-radius: 30px;
+    background-color: #6b6df2;
+    height: 55px;
+    left: 155px;
+    position: absolute;
+    top: 465px;
+    width: 214px;
+  }
+  
+  .sale-create .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "Urbanist", Helvetica;
+    font-size: 32px;
+    font-weight: 700;
+    left: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    text-align: center;
+    top: 9px;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+  
+  .sale-create .text-wrapper-3 {
+    color: #000000;
+    font-family: "Urbanist", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 39px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 141px;
+    white-space: nowrap;
+  }
+  
+  .sale-create .rectangle-2 {
+    background-color: #ffffff;
+    border: 3px solid;
+    border-color: #5d5fef;
+    border-radius: 30px;
+    height: 135px;
+    left: 28px;
+    position: absolute;
+    top: 172px;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 430px;
+    font-family: "Urbanist", Helvetica;
+    font-size: 20px;
+  }
+  
+  .sale-create .text-wrapper-4 {
+    color: #000000;
+    font-family: "Urbanist", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 39px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 29px;
+    white-space: nowrap;
+  }
+  
+  .sale-create .overlap-2 {
+    height: 82px;
+    left: 388px;
+    position: absolute;
+    top: 339px;
+    width: 66px;
+  }
+  
+  .sale-create .ellipse {
+    background-color: #ffffff;
+    border: 3px solid;
+    border-color: #5d5fef;
+    border-radius: 50px;
+    height: 66px;
+    left: 0;
+    position: absolute;
+    top: 9px;
+    width: 66px;
+  }
+  
+  .sale-create .text-wrapper-5 {
+    color: #000000;
+    font-family: "Urbanist", Helvetica;
+    font-size: 64px;
+    font-weight: 300;
+    left: 6px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    top: 8px;
+    width: 58px;
+
+    cursor: pointer;
+  }
+  
+  .sale-create .image {
+    height: 22px;
+    left: 498px;
+    object-fit: cover;
+    position: absolute;
+    top: 19px;
+    width: 22px;
+  }
+  

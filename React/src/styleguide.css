@@ -1,0 +1,32 @@
+:root {
+    --body-font-family: "WorkSans-Regular", Helvetica;
+    --body-font-size: 13px;
+    --body-font-style: normal;
+    --body-font-weight: 400;
+    --body-letter-spacing: -0.26px;
+    --body-line-height: normal;
+    --d-9d-9d-9: rgba(18, 178, 111, 1);
+    --fuschia-100: rgba(239, 93, 168, 1);
+    --fuschia-60: rgba(251, 237, 244, 1);
+    --fuschia-80: rgba(241, 120, 182, 1);
+    --header-1-font-family: "WorkSans-Bold", Helvetica;
+    --header-1-font-size: 34px;
+    --header-1-font-style: normal;
+    --header-1-font-weight: 700;
+    --header-1-letter-spacing: -0.68px;
+    --header-1-line-height: normal;
+    --header-2-font-family: "WorkSans-Bold", Helvetica;
+    --header-2-font-size: 20px;
+    --header-2-font-style: normal;
+    --header-2-font-weight: 700;
+    --header-2-letter-spacing: -0.4px;
+    --header-2-line-height: normal;
+    --iris-100: rgba(93, 95, 239, 1);
+    --iris-60: rgba(159, 161, 255, 0.27);
+    --iris-80: rgba(120, 121, 241, 1);
+    --variable-collection-archive-background: rgba(216, 216, 216, 1);
+    --variable-collection-fav: rgba(230, 230, 255, 1);
+    --variable-collection-light-lilac: rgba(165, 166, 246, 0.06);
+    --variable-collection-new: rgba(219, 219, 244, 1);
+  }
+  

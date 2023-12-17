@@ -1,0 +1,219 @@
+.profile-frame {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+ .profile-frame .mid-frame {
+  width: 719px;
+  height: fit-content;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  left: -9px;
+  position: relative;
+  background-repeat:repeat;
+  /* overflow: hidden; */
+  background-attachment:fixed;
+  background-position:49%;
+  /* position: fixed; */
+  background-image: url("./image 14.png");
+ }
+  
+  .profile-frame .profile-props {
+
+    top:-25px;
+
+    height: 832px;
+    position: relative;
+    width: 719px;
+  }
+  
+  .profile-frame .text-wrapper-pfp {
+    color: #000000;
+    font-family: "Urbanist-Bold", Helvetica;
+    font-size: 32px;
+    font-weight: 700;
+    left: 110px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 238px;
+    white-space: nowrap;
+  }
+
+  .profile-frame .overlapp {
+    background-color: #7879f1;
+    border-radius: 30px;
+    height: 50px;
+    left: 450px;
+    position: absolute;
+    top: 225px;
+    width: 160px;
+  }
+  
+  .profile-frame .follow {
+    
+    
+    position:relative;
+    text-align: center;
+
+    top: 10px;
+   
+    flex-shrink: 0;
+
+    
+    color: #ffffff;
+    font-family: "Urbanist", Helvetica;
+    font-size: 25px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 0;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    white-space: nowrap;
+    cursor: pointer;
+  }
+
+  .profile-frame .overlap-group-pfp {
+    height: 37px;
+    left: 90px;
+    position: absolute;
+    top: 298px;
+    width: 541px;
+  }
+  
+  .profile-frame .text-wrapper-2-pfp {
+    color: #000000;
+    font-family: "Urbanist-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 194px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    
+    top: 0;
+    width: 122px;
+  }
+  
+  .profile-frame .text-wrapper-3-pfp {
+    color: #000000;
+    font-family: "Urbanist-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 339px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    
+    top: 2px;
+    width: 122px;
+  }
+  
+  .profile-frame .text-wrapper-4-pfp {
+    color: #000000;
+    font-family: "Urbanist-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 22px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    
+    top: 2px;
+    width: 122px;
+  }
+  
+  .profile-frame .line {
+    width: 541.001px;
+    height: 1px;
+    background: #000;
+
+    position: relative;
+    top: 35px;
+  }
+  
+  .profile-frame .group {
+    height: 18px;
+    left: 421px;
+    position: absolute;
+    top: 5px;
+    width: 96px;
+  }
+  
+  .profile-frame .star {
+    height: 18px;
+    left: 39px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 18px;
+  }
+  
+  .profile-frame .img-pfp {
+    height: 18px;
+    left: 58px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 18px;
+  }
+  
+  .profile-frame .star-2 {
+    height: 18px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 18px;
+  }
+  
+  .profile-frame .star-3 {
+    height: 18px;
+    left: 19px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 18px;
+  }
+  
+  .profile-frame .favorite {
+    height: 18px;
+    left: 78px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 18px;
+  }
+  
+  .profile-frame .facetune-pfp {
+    
+    border: 5px solid;
+    background-size:cover ;
+    background-position: center;
+    border-color: #000000;
+    border-radius: 114.1px;
+    height: 135px;
+    left: 130px;
+    position: absolute;
+    top: 75px;
+    width: 134px;
+  }
+  
+  .profile-frame .profile-posts {
+    display: grid;
+    
+    grid-template-columns: repeat(2, 1fr);
+    gap: -60px;
+    position: relative;
+    left: -5px;
+    top: -480px;
+    row-gap: 30px;
+    grid-auto-rows: minmax(290px, auto);
+  }

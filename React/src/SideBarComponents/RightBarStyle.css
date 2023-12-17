@@ -1,0 +1,148 @@
+.right-bar-frame {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    width: 10%;
+
+    position: fixed;
+     
+    right:257px;
+  }
+  
+  .right-bar-frame .div {
+    background-color: #ffffff;
+    height: 832px;
+    position: relative;
+    width: 269px;
+  }
+  
+  .right-bar-frame .overlap-group-bar2 {
+    background-color: #7879f1;
+    height: 80px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 269px;
+  }
+  
+  .right-bar-frame .overlap {
+    background-color: #ffffff;
+    border-radius: 32.5px/31.5px;
+    height: 63px;
+    left: 19px;
+    position: absolute;
+    top: 6px;
+    width: 65px;
+  }
+  
+  .right-bar-frame .image {
+    height: 54px;
+    left: 8px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 50px;
+  }
+  
+  .right-bar-frame .text-wrapper-po {
+    color: #ffffff;
+    font-family: "Urbanist-Bold", Helvetica;
+    font-size: 32px;
+    font-weight: 700;
+    left: 95px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 16px;
+    white-space: nowrap;
+  }
+  
+  .right-bar-frame .polygon {
+    height: 22px;
+    left: 210px;
+    position: absolute;
+    top: 29px;
+    width: 28px;
+  }
+  
+  .right-bar-frame .overlap-2 {
+    background-color: #eaeaea;
+    height: 752px;
+    left: 0;
+    position: absolute;
+    top: 80px;
+    width: 269px;
+  }
+  
+  .right-bar-frame .text-wrapper-2 {
+    color: #000000;
+    font-family: "Urbanist-Bold", Helvetica;
+    font-size: 32px;
+    font-weight: 700;
+    left: 39px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 348px;
+    white-space: nowrap;
+  }
+  
+  .right-bar-frame .text-wrapper-3 {
+    color: #000000;
+    font-family: "Urbanist-Bold", Helvetica;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 0;  
+    line-height: normal;
+    position: relative;
+    top: 163px;
+    white-space: nowrap;
+  }
+  
+  .right-bar-frame .followers-following {
+    color: #000000;
+    font-family: "Urbanist-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 79px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    text-decoration: underline;
+    top: 208px;
+    width: 112px;
+  }
+  
+  .right-bar-frame .facetune {
+
+    background-size: cover;
+    background-position: center;
+    border: 5px solid;
+    border-color: #000000;
+    border-radius: 114.1px;
+    height: 135px;
+    left: 68px;
+    position: absolute;
+    top: 18px;
+    width: 134px;
+  }
+  
+  .right-bar-frame .text-wrapper-4 {
+    color: #000000;
+    font-family: "Urbanist-Bold", Helvetica;
+    font-size: 32px;
+    font-weight: 700;
+
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    top: 261px;
+    white-space: nowrap;
+    text-align: center;
+
+    cursor: pointer;
+  }
+  
