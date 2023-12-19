@@ -23,9 +23,9 @@ Inside the correct directory
 In Postman:
 1) open workspace
 2) add request 
-3) POST ile http://127.0.0.1:5000/register
-4) Body'den raw seçip JSON seçip info girin
-5) JSON register için:
+3) POST http://127.0.0.1:5000/register
+4) Choose Raw from Body then enter the JSON file
+5) JSON register:
 {
   "bilkent_id": 22103044,
   "username": "zeynepsuucan",
