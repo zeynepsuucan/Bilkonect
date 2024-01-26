@@ -1,4 +1,4 @@
-**User’s Guide **
+User’s Guide
 
 1.1 Getting Started
 
@@ -62,8 +62,8 @@ Users can report inappropriate content. Admin staff can review and take appropri
 1.4.4 Search Bar
 Users can search for other users by their username, where they can see all the users that include the search text in their username. The user can follow other users through here. Users can also search for posts by their title, which works similarly to user search.
 
-**Build Instructions
-**
+Build Instructions
+
 1- If the system does not have python and node.js, they need to be installed. For that, the official documentation can be useful. (python, node.js)
 
 2- The project’s repository from Github (https://github.com/ozgur2dag/Bilkonect-full-app) must be cloned to your system using “git clone”.
